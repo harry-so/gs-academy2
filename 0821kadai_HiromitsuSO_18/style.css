@@ -1,0 +1,100 @@
+body {
+    background-color:rgb(15, 14, 14);
+}
+
+.header {
+    margin:auto;
+    max-width : 450px;
+    text-align:center;
+    color:white;
+}
+.wrapper {
+    max-width:450px;
+    margin:auto;
+    text-align:center;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:10px;
+    margin:auto;
+    
+}
+.bet_table {
+    background-color:green;
+}
+
+tr {
+    text-align:center;
+    background-color:green;
+    cursor:pointer;
+}
+
+
+td {
+    border:0.5px grey solid;
+    padding:10px 15px;
+    color:yellow;   
+    empty-cells:unset;
+}
+
+td:hover {
+    background-color:rgb(141, 221, 141);
+    border: 2px solid;
+    padding: 8.5px 13.5px;
+}
+
+.selected_number {
+    text-align:left;
+}
+.btn{
+    padding: 10px 10px;
+    margin:15px 20px;
+    background-color: green;
+    color:yellow;
+    font-weight:bold;
+    font-size:10px;
+    height:45px;
+    width: 60px;
+
+
+}
+.zero {
+    text-align:right;
+}
+
+#red{
+    background-color:red;
+    border-radius:50%;
+}
+#black{
+    background-color:black;
+    border-radius:50%;
+}
+
+.past {
+    background-color: grey;
+    padding: 10px;
+    border-radius:10px;
+    color:white;
+
+}
+
+.bet{
+    display:flex;
+    justify-content:space-between;
+    color:white;
+    padding:0 15px;
+}
+
+
+.rest_amount {
+    font-size:20px;
+    font-weight:700;
+    color:goldenrod;
+}
+.bet_amount {
+    font-size:20px;
+    font-weight:700;
+    color:goldenrod;
+}
